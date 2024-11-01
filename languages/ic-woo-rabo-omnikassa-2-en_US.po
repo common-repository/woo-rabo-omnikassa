@@ -1,0 +1,389 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-06-10 13:37+0200\n"
+"PO-Revision-Date: 2024-06-10 13:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;__(\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/js/bancontact.js:12
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: assets/js/bancontact.js:32
+msgid "Proceed to Bancontact"
+msgstr "Proceed to Bancontact"
+
+#: assets/js/cards.js:12
+msgid "cards"
+msgstr "cards"
+
+#: assets/js/cards.js:32
+msgid "Proceed to Creditcards"
+msgstr "Proceed to Creditcards"
+
+#: assets/js/ideal.js:12
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: assets/js/ideal.js:32
+msgid "Proceed to iDEAL"
+msgstr "Proceed to iDEAL"
+
+#: assets/js/paypal.js:12
+msgid "Paypal"
+msgstr "Paypal"
+
+#: assets/js/paypal.js:32
+msgid "Proceed to Paypal"
+msgstr "Proceed to Paypal"
+
+#: assets/js/sofort.js:12
+msgid "Sofort"
+msgstr "Sofort"
+
+#: assets/js/sofort.js:32
+msgid "Proceed to Sofort"
+msgstr "Proceed to Sofort"
+
+#: controllers/icwoorok2-controller.php:30
+msgid "Rabo Smart Pay - Merchant settings"
+msgstr "Rabo Smart Pay - Merchant settings"
+
+#: controllers/icwoorok2-controller.php:32
+msgid ""
+"IMPORTANT: To process transactions properly, please enter the following "
+"webhook URL on your Rabo Smart Pay dashboard:"
+msgstr ""
+"IMPORTANT: To process transactions properly, please enter the following "
+"webhook URL on your Rabo Smart Pay dashboard:"
+
+#: controllers/icwoorok2-controller.php:35
+msgid "Refresh Token"
+msgstr "Refresh Token"
+
+#: controllers/icwoorok2-controller.php:38
+msgid "The Refresh token can be found on the Rabo Smart Pay dashboard."
+msgstr "The Refresh token can be found on the Rabo Smart Pay dashboard."
+
+#: controllers/icwoorok2-controller.php:42
+msgid "Signing Key"
+msgstr "Signing Key"
+
+#: controllers/icwoorok2-controller.php:45
+msgid "The Signing Key token can be found on the Rabo Smart Pay dashboard."
+msgstr "The Signing Key token can be found on the Rabo Smart Pay dashboard."
+
+#: controllers/icwoorok2-controller.php:49
+msgid "Sandbox environment"
+msgstr "Sandbox environment"
+
+#: controllers/icwoorok2-controller.php:51
+msgid "Enable the Sandbox mode"
+msgstr "Enable the Sandbox mode"
+
+#: controllers/icwoorok2-controller.php:53
+msgid "Please make sure you enter the sandbox credentials if checked."
+msgstr "Please make sure you enter the sandbox credentials if checked."
+
+#: controllers/icwoorok2-controller.php:57
+msgid "Debug webhook"
+msgstr "Debug webhook"
+
+#: controllers/icwoorok2-controller.php:59
+msgid "Enable the webhook debug"
+msgstr "Enable the webhook debug"
+
+#: controllers/icwoorok2-controller.php:61
+msgid ""
+"Additional logging will be activated and placed in the debug.log of "
+"Wordpress."
+msgstr ""
+"Additional logging will be activated and placed in the debug.log of "
+"Wordpress."
+
+#: controllers/icwoorok2-controller.php:100
+msgid "Status received from Customer Return: "
+msgstr "Status received from Customer Return: "
+
+#: controllers/icwoorok2-controller.php:100
+msgid ""
+"Order updated, check Smart Pay dashboard for status before sending products"
+msgstr ""
+"Order not updated, check Smart Pay dashboard for status before sending "
+"products"
+
+#: controllers/icwoorok2-controller.php:100
+#: controllers/icwoorok2-controller.php:104
+#: controllers/icwoorok2-controller.php:109
+msgid "Payment-method: "
+msgstr "Payment-method: "
+
+#: controllers/icwoorok2-controller.php:104
+#: controllers/icwoorok2-controller.php:109
+msgid "Status received from Customer Return:"
+msgstr "Status received from Customer Return:"
+
+#: controllers/icwoorok2-controller.php:104
+msgid ""
+"Payment status already received: Order status not updated, check Smart Pay "
+"dashboard for status"
+msgstr ""
+"Payment status already received: Order status not updated, check Smart Pay "
+"dashboard for status"
+
+#: controllers/icwoorok2-controller.php:109
+msgid "Order not updated, check Smart Pay dashboard for status"
+msgstr "Order not updated, check Smart Pay dashboard for status"
+
+#: controllers/icwoorok2-controller.php:138
+msgid ""
+"Rabo Smart Pay webhook works, however is not called correctly. This is "
+"normally done through a POST with data."
+msgstr ""
+"Rabo Smart Pay webhook works, however is not called correctly. This is "
+"normally done through a POST with data."
+
+#: controllers/icwoorok2-controller.php:233
+msgid "Status received from Rabo Smart Pay Webhook: "
+msgstr "Status received from Rabo Smart Pay Webhook: "
+
+#: controllers/icwoorok2-controller.php:233
+msgid " for transaction ID:"
+msgstr " with transaction ID:"
+
+#: controllers/icwoorok2-controller.php:241
+msgid "Update order status: Payment Completed"
+msgstr "Update order status: Payment Completed"
+
+#: controllers/icwoorok2-controller.php:246
+msgid "Order status not updated: Payment status already received"
+msgstr "Order status not updated: Payment status already received"
+
+#: controllers/icwoorok2-controller.php:255
+msgid ""
+"<br>Payment is cancelled or expired, but will be cancelled automaticly by "
+"WooCommerce."
+msgstr ""
+"<br>Payment is cancelled or expired, but will be cancelled automaticly by "
+"WooCommerce."
+
+#: controllers/icwoorok2-controller.php:259
+msgid "<br>Update order status: Failed."
+msgstr "<br>Update order status: Failed."
+
+#: controllers/icwoorok2-controller.php:264
+msgid "<br>Update order status: Cancelled"
+msgstr "<br>Update order status: Cancelled"
+
+#: controllers/icwoorok2-controller.php:275
+msgid "<br>No Final status has been found."
+msgstr "<br>No Final status has been found."
+
+#: controllers/icwoorok2-controller.php:280
+msgid "<br>Transaction ID updated."
+msgstr "<br>Transaction ID updated."
+
+#: controllers/icwoorok2-controller.php:284
+msgid ""
+"<br>Order doesnt have the correct status to be changed by the payment method."
+msgstr ""
+"<br>Order doesnt have the correct status to be changed by the payment method."
+
+#: gateways/abstract.php:13
+#, php-format
+msgid "Enable this method to receive transactions with Rabo Smart Pay - %s "
+msgstr "Enable this method to receive transactions with Rabo Smart Pay - %s "
+
+#: gateways/abstract.php:93
+msgid "Invalid response received from Rabo Smart Pay!"
+msgstr "Invalid response received from Rabo Smart Pay!"
+
+#: gateways/abstract.php:97 gateways/abstract.php:100
+msgid "Accesstoken could not be generated, please check the configuration."
+msgstr "Accesstoken could not be generated, please check the configuration."
+
+#: gateways/abstract.php:118
+msgid " via Rabo Smart Pay"
+msgstr " via Rabo Smart Pay"
+
+#: gateways/abstract.php:163
+msgid "Rabo Smart Pay Documentation"
+msgstr "Rabo Smart Pay Documentation"
+
+#: gateways/abstract.php:165
+msgid "Go to documentation"
+msgstr "Go to documentation"
+
+#: gateways/abstract.php:169
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: gateways/abstract.php:171
+msgid "Enable Rabo Smart Pay"
+msgstr "Enable Rabo Smart Pay"
+
+#: gateways/abstract.php:176
+msgid "Title"
+msgstr "Title"
+
+#: gateways/abstract.php:178
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: gateways/abstract.php:184
+msgid "Customer Message after payment select"
+msgstr "Customer Message after payment select"
+
+#: gateways/abstract.php:190
+msgid "Description on receipt"
+msgstr "Description on receipt"
+
+#: gateways/abstract.php:308
+msgid "Rabo Smart Pay payment started with:"
+msgstr "Rabo Smart Pay payment started with:"
+
+#: gateways/abstract.php:308
+msgid "For amount: "
+msgstr "For amount: "
+
+#: gateways/abstract.php:325
+msgid "Smart Pay returned an error! Code:"
+msgstr "Smart Pay returned an error! Code:"
+
+#: gateways/abstract.php:325
+msgid "Check our FAQ:"
+msgstr "Check our FAQ:"
+
+#: gateways/abstract.php:325
+msgid "Rabo Smart Pay Error codes"
+msgstr "Rabo Smart Pay Error codes"
+
+#: gateways/abstract.php:334
+msgid "Something went wrong, please try again!"
+msgstr "Something went wrong, please try again!"
+
+#: gateways/abstract.php:338 gateways/abstract.php:340
+msgid "No response received from the Rabobank."
+msgstr "No response received from the Rabobank."
+
+#~ msgid "Bank selection in checkout"
+#~ msgstr "Bank selection in checkout"
+
+#~ msgid "Show bank selection"
+#~ msgstr "Show bank selection"
+
+#~ msgid "Dont show"
+#~ msgstr "Dont show"
+
+#~ msgid "Show as select field"
+#~ msgstr "Show as select field"
+
+#~ msgid "Show as radio buttons"
+#~ msgstr "Show as radio buttons"
+
+#~ msgid "Display iDEAL bank selection in the checkout."
+#~ msgstr "Display iDEAL bank selection in the checkout."
+
+#~ msgid "Shipment Cost"
+#~ msgstr "Shipment Cost"
+
+#~ msgid "Cost of chosen shipment method"
+#~ msgstr "Cost of chosen shipment method"
+
+#~ msgid "Gender"
+#~ msgstr "Gender"
+
+#~ msgid "Please Choose"
+#~ msgstr "Please Choose"
+
+#~ msgid "Male"
+#~ msgstr "Male"
+
+#~ msgid "Female"
+#~ msgstr "Female"
+
+#~ msgid "Birthdate"
+#~ msgstr "Birthdate"
+
+#~ msgid "Day"
+#~ msgstr "Day"
+
+#~ msgid "Month"
+#~ msgstr "Month"
+
+#~ msgid "January"
+#~ msgstr "January"
+
+#~ msgid "February"
+#~ msgstr "February"
+
+#~ msgid "March"
+#~ msgstr "March"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "May"
+
+#~ msgid "June"
+#~ msgstr "June"
+
+#~ msgid "July"
+#~ msgstr "July"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "October"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Year"
+#~ msgstr "Year"
+
+#~ msgid "Please check the gender option"
+#~ msgstr "Please check the gender option"
+
+#~ msgid "Please check your birthdate option"
+#~ msgstr "Please check your birthdate option"
+
+#~ msgid "Please check the birthdate option, this date does not seem to exist."
+#~ msgstr ""
+#~ "Please check the birthdate option, this date does not seem to exist."
+
+#~ msgid "Please check your \"birthday\" or \"gender\"."
+#~ msgstr "Please check your \"birthday\" or \"gender\"."
+
+#~ msgid "Select your bank"
+#~ msgstr "Select your bank"
+
+#~ msgid "Please choose..."
+#~ msgstr "Please Choose."
+
+#~ msgid "Please check the bank option"
+#~ msgstr "Please check the gender option"
+
+#~ msgid "Please check your \"bank\"."
+#~ msgstr "Please check your \"bank\"."
+
+#~ msgid "Using transaction ID:"
+#~ msgstr "Using transaction ID:"
